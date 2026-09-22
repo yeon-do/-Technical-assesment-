@@ -4,36 +4,36 @@ Doyeon Park - yeon-do Portfolio for Technical assessment
 
 
 # 📌 Projects Overview
-| Project | Period | Role | Tech Stack |
-|------|------|------|------|
-| Undergraduate Research Intern @ Data Mining Lab | 07.2025 - Ongoing | Present	Undergraduate Intern | Python, LLM, KG |
-| Applied Regression | 09.2025 – 12.2025 | Data Analyst | R, Statistics |
-| Fashion AI Predictor | 09. 2024 – 11. 2024 | Model Architect | Python, PyTorch |
-| REFEELY (Web Game) | 03.2025 – 07.2025 | Frontend Dev | JS, Phaser3 |
+| 프로젝트 | 기간 | 역할 | 기술 스택 |
+|---|---|---|---|
+| 한양대학교 데이터마이닝 연구실 학부연구생 | 2025.07 ~ 현재 | 학부연구생 | Python, PyTorch, Generative Recommendation |
+| 응용회귀분석 | 2025.09 ~ 2025.12 | Data Analyst | R, Statistics |
+| Fashion Style Image Classification & Preference Prediction | 2024.09 ~ 2024.11 | Model Architect | Python, PyTorch |
+| Re:Fact (Web Game) | 2025.03 ~ 2025.07 | Frontend Developer | JavaScript, Phaser3 |
 
 
 # 📝 Projects
 
-1. Generative Recommendation & Semantic Graph Research 🔬
+## 1. Generative Recommendation & Semantic Graph Research 🔬
 
-한양대학교 데이터마이닝 연구실 학부연구생
+**한양대학교 데이터마이닝 연구실 학부연구생**
 
 Generative Recommendation 분야의 선행 연구를 분석하고, 기존 모델의 재현과 평가 환경 구축을 수행하고 있습니다. 초기에는 Sequential Recommendation 관련 논문을 조사·발표하고 GRAM을 비롯한 baseline 모델을 재현했으며, 이후 baseline 간 평가 방식의 차이를 분석하고 평가 방법을 통일했습니다. 현재는 다양한 case에 대한 반복 실험을 통해 모델의 성능과 특성을 분석하고 있습니다.
 
-기간: 2025.07 ~ 현재
-역할: Literature Review, Baseline Reproduction, Experimental Analysis
-기술: Python, PyTorch, VSCode
+- **기간:** 2025.07 ~ 현재
+- **역할:** Literature Review, Baseline Reproduction, Experimental Analysis
+- **기술:** Python, PyTorch, VSCode
 
-주요 기여
+### 주요 기여
 
-논문 분석 및 발표: Sequential Recommendation 및 Generative Recommendation 관련 선행 연구를 조사하고 주요 방법론과 연구 방향을 발표했습니다.
-Baseline 재현: GRAM을 비롯한 기존 모델을 직접 재현하여 후속 실험을 위한 baseline을 구축했습니다.
-평가 방법 통일: baseline별 evaluation setting의 차이를 분석하고, Candidate Sampling 방식에서 Full Ranking 방식으로 평가 환경을 통일했습니다.
-Case별 실험 및 분석: 다양한 조건에서 반복 실험을 수행하며 모델의 성능 변화와 특성을 비교·분석하고, 연구 방향에 필요한 실험 결과를 축적하고 있습니다.
-Graph 기반 분석: 연구 과정에서 데이터의 구조적 관계를 활용하기 위한 Graph를 구성하고 Shortest Path 분석 코드를 구현했습니다.
+- **논문 분석 및 발표:** Sequential Recommendation 및 Generative Recommendation 관련 선행 연구를 조사하고 주요 방법론과 연구 방향을 발표했습니다.
+- **Baseline 재현:** GRAM을 비롯한 기존 모델을 직접 재현하여 후속 실험을 위한 baseline을 구축했습니다.
+- **평가 방법 통일:** baseline별 evaluation setting의 차이를 분석하고, Candidate Sampling 방식에서 Full Ranking 방식으로 평가 환경을 통일했습니다.
+- **Case별 실험 및 분석:** 다양한 조건에서 반복 실험을 수행하며 모델의 성능 변화와 특성을 비교·분석하고, 연구 방향에 필요한 실험 결과를 축적하고 있습니다.
+- **Graph 기반 분석:** 연구 과정에서 데이터의 구조적 관계를 활용하기 위한 Graph를 구성하고 Shortest Path 분석 코드를 구현했습니다.
 
-**🎞 Core Research Codes**
-*As the main architecture is currently under development and confidential, the attached repository contains the foundational data processing and graph analysis codes.*
+**🎞 연구 관련 코드**
+*연구의 주요 architecture는 현재 개발 및 연구가 진행 중이므로, 공개 가능한 범위에서 데이터 처리 및 Graph 분석 코드를 정리했습니다.*
 * [👉 View KG Construction & Shortest Path Analysis Codes](https://github.com/yeon-do/llmbased-rec/blob/main/FIXED_2_analyze_shortest_paths.py)
 <br>
 
