@@ -37,73 +37,80 @@ Generative Recommendation 분야의 선행 연구를 분석하고, 기존 모델
 * [👉 View KG Construction & Shortest Path Analysis Codes](https://github.com/yeon-do/llmbased-rec/blob/main/FIXED_2_analyze_shortest_paths.py)
 <br>
 
-## 2. Advanced Statistical Modeling & Regression Analysis 📊
+## 2. 통계적 모델링 및 회귀분석 📊
 
-**Coursework: Applied Regression Analysis (Department of Mathematics, Hanyang University)**
+**한양대학교 수학과 「응용회귀분석」**
 
-Applied diverse statistical methodologies ranging from simple linear regression to regularization techniques based on varying data conditions, and conducted academic discussions and peer reviews to validate model assumptions.
+데이터의 특성과 분석 목적에 따라 단순·다중 선형회귀부터 Ridge, Lasso 등의 정규화 회귀까지 다양한 통계적 모델을 적용했습니다. 모델의 가정을 검토하고 결과를 비교·논의하며 분석 과정의 타당성을 점검했습니다.
 
-* **Project Timeline:** 09.2025 – 12.2025
-* **Key Role:** Data Analyst & Final Presenter
-* **Tools Used:** RStudio
-* **Language:** R
+- **기간:** 2025.09 ~ 2025.12
+- **역할:** Data Analyst & Final Presenter
+- **기술:** RStudio
+- **언어:** R
 
-**Key Contributions:**
-* **Step-by-step Modeling & Problem Solving:** Applied optimal regression methods from basic simple/multiple linear regression to Ridge and Lasso estimators to datasets with diverse characteristics, writing analytical code to solve textbook exercises.
-* **Model Diagnostics & Peer Review:** Conducted rigorous residual analysis (testing for normality and homoscedasticity) on the derived models. Compared and debated results with other teams to identify modeling limitations and propose methodological improvements.
+### 주요 기여
 
-**🎞 Final Presentation: In-depth Analysis of Dummy Variable Regression**
+- **단계별 회귀 모델링:** 단순 선형회귀와 다중 선형회귀부터 Ridge와 Lasso까지 데이터의 특성에 맞는 회귀 방법을 적용하고, 각 분석에 필요한 코드를 직접 작성했습니다.
+- **모델 진단 및 결과 검토:** 잔차 분석을 통해 정규성 및 등분산성 등의 회귀 가정을 검토하고, 다른 팀과 결과를 비교·논의하며 모델의 한계와 개선 방향을 확인했습니다.
 
-For the final project, I designed and presented Dummy Variable Regression models using chick growth and turkey weight datasets to analyze how categorical factors (e.g., vitamin types, age groups) impact quantitative outcomes. I established a systematic model selection flowchart using partial F-tests (testing for parallelism and coincidence) and statistically interpreted the limitations caused by small sample sizes.
+**🎞 최종 프로젝트: 더미변수 회귀분석 심화 분석**
+
+최종 프로젝트에서는 병아리 성장 데이터와 칠면조 체중 데이터를 활용해 비타민 종류와 연령대 등 범주형 변수가 정량적 결과에 미치는 영향을 분석했습니다.
+
+Partial F-test를 활용해 회귀직선의 평행성 및 일치 여부를 단계적으로 검정하고, 분석 결과를 바탕으로 적절한 모델을 선택하는 과정을 정리했습니다. 또한 표본 수가 적을 때 발생할 수 있는 통계적 한계를 함께 분석했습니다.
 
 <img src="https://github.com/user-attachments/assets/18423891-28a9-48c3-ace4-1a45c6e4ecc5" width="70%">
 
-[👉 View all exercise codes, final presentation (PPT), and reports](https://github.com/yeon-do/anlaysis-application-regression.git)
+[👉 실습 코드, 최종 발표자료 및 보고서](https://github.com/yeon-do/anlaysis-application-regression.git)
 
 <br>
 
 ## 3. Fashion Style Image Classification & Preference Prediction 👟
 
-**Organized by National Information Society Agency (NIA) - Data Creator Camp**
+**과학기술정보통신부·한국지능정보사회진흥원(NIA) Data Creator Camp**
 
-Developed a deep learning-based fashion style classification model and extracted feature vectors to build a preference prediction algorithm based on image similarity.
+패션 이미지의 스타일을 분류하는 Deep Learning 모델을 개발하고, 분류 모델에서 추출한 Feature Vector의 유사도를 활용해 사용자의 선호를 예측하는 추천 알고리즘을 구현했습니다.
 
-* **Project Timeline:** 09. 2024 – 11. 2024
-* **Key Role:** Model Architect & Data Preprocessing Lead
-* **Tools Used:** VScode, Colab, PyTorch, U-2-Net, Mask R-CNN, ResNet-18
-* **Language:** Python
+- **기간:** 2024.09 ~ 2024.11
+- **역할:** Model Architect & Data Preprocessing Lead
+- **기술:** VSCode, Colab, PyTorch, U-2-Net, Mask R-CNN, ResNet-18
+- **언어:** Python
 
-**Key Contributions:**
-* **Advanced Image Preprocessing Pipeline:** Led the image preprocessing phase utilizing U-2-Net and Mask R-CNN for precise background removal and object segmentation. Applied robust data augmentation techniques to improve model generalization.
-* **Image Classification Model (ResNet-18):** Implemented and fine-tuned a ResNet-18 architecture to accurately classify multi-year fashion images into specific style categories.
-* **Similarity-based Preference Prediction:** Extracted latent feature vectors from the classification model to compute image similarities. Leveraged these distance metrics as item similarities to construct an item-based collaborative filtering algorithm for preference prediction.
+### 주요 기여
 
-**Award Recognition:** Awarded the **Excellence Award (2nd Place)** by NIA, recognized for logical consistency, innovative integration of computer vision with recommendation logic, and robust model performance.
+- **이미지 전처리 Pipeline 구축:** U-2-Net과 Mask R-CNN을 활용해 이미지의 배경 제거와 객체 분할을 수행하는 전처리 과정을 구축했습니다. 또한 Data Augmentation을 적용해 모델의 일반화 성능을 높이고자 했습니다.
+- **이미지 분류 모델 개발:** ResNet-18을 구현하고 학습시켜 여러 연도의 패션 이미지를 스타일별로 분류했습니다.
+- **유사도 기반 선호 예측:** 분류 모델에서 Feature Vector를 추출하고 이미지 간 거리를 계산해 유사도를 구했습니다. 이를 Item Similarity로 활용하여 Item-based Collaborative Filtering 방식의 선호 예측 알고리즘을 구성했습니다.
 
-**🎞 Project Presentation & Code**
+### 🏆 수상
+
+한국지능정보사회진흥원(NIA) Data Creator Camp에서 **우수상(2위)**을 수상했습니다. Computer Vision과 Recommendation을 결합한 접근 방식과 모델 구성의 논리성을 바탕으로 프로젝트의 완성도를 인정받았습니다.
+
+**🎞 프로젝트 발표자료 및 코드**
 * [👉 View Project Presentation (PPT) & Source Code](https://github.com/yeon-do/Data_create_camp.git)
 * [💻 View Simplified Core Code (Classification, Feature Extraction & Similarity RecSys)](https://github.com/yeon-do/Data_create_camp/blob/main/Simplified%20Core%20code(Classification%2C%20Feature%20Extraction%20%26%20Similarity%20RecSys).py)
 <br>
 
 
-## 4. Web-based Recycling Educational Game 'Re:Fact' ♻️
+## 4. Web 기반 재활용 교육 게임 'Re:Fact' ♻️
 
-**Collaboration with Eco-friendly Packaging Company 'Refeely' (KAKAO Tech Impact & Hanyang Univ.)**
+**친환경 패키징 기업 Refeely 협업 프로젝트 (KAKAO Tech Impact & 한양대학교)**
 
-A gamification-based educational solution designed to promote correct waste separation practices and improve the low recycling rate (13%) of paper cartons.
+종이팩의 낮은 재활용률 문제를 개선하기 위해 올바른 분리배출 방법을 게임을 통해 학습할 수 있도록 설계한 교육용 Web Game을 개발했습니다.
 
-* **Project Timeline:** 03.2025 – 07.2025
-* **Key Role:** Frontend Developer
-* **Tools Used:** VScode, Phaser3
-* * **Language:** JavaScript
+- **기간:** 2025.03 ~ 2025.07
+- **역할:** Frontend Developer
+- **기술:** VSCode, Phaser3
+- **언어:** JavaScript
 
-**Key Contributions:**
-* **Frontend & Game Engine Development:** Developed the core game logic including waste sorting gameplay, pretreatment action missions, and quizzes using the Phaser3 framework and JavaScript for an engaging UI/UX.
-* **Project Planning & Client Communication:** Directly communicated with the Refeely CEO to translate business requirements into technical features. Successfully integrated real-world reward systems, such as linking product QR codes and converting in-game points to the company's online mall.
-* **Driving ESG Impact:** Contributed to a solution where 77.6% of test users reported an improved willingness to practice eco-friendly behaviors, targeting a measurable increase in nationwide recycling rates.
+### 주요 기여
+
+- **Frontend 및 Game Engine 개발:** Phaser3와 JavaScript를 활용해 폐기물 분류 게임, 전처리 행동 미션, 퀴즈 등 핵심 게임 로직을 구현하고 사용자 경험을 고려한 UI/UX를 개발했습니다.
+- **프로젝트 기획 및 요구사항 반영:** Refeely CEO와 직접 소통하며 사업 요구사항을 기술적 기능으로 구체화했습니다. 제품 QR 코드와 연계하고 게임 포인트를 기업 온라인몰에서 사용할 수 있도록 실제 보상 시스템을 구현했습니다.
+- **ESG 문제 해결:** 올바른 분리배출 행동을 유도하는 교육용 솔루션을 개발했으며, 테스트 사용자 중 **77.6%가 친환경 행동 의향이 높아졌다고 응답**하는 결과를 확인했습니다.
 
 <img src="https://github.com/user-attachments/assets/b37bbedc-85ec-44b7-8b95-4043c8bac0c6" width="60%">
 
-<br>**🔗 Links:**
+<br>**🔗 프로젝트 링크:**
 * [🎮 Play the Game on Web](https://funny-pasca-8573bf.netlify.app/)
 * [👉 View Detailed & Source Code](https://github.com/yeon-do/TFI_CAMPUS_HANYANG_25Spring_REPACT.git)
