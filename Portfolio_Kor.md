@@ -31,6 +31,7 @@ Generative Recommendation 분야의 선행 연구를 분석하고, 기존 모델
 - **평가 방법 통일:** baseline별 evaluation setting의 차이를 분석하고, Candidate Sampling 방식에서 Full Ranking 방식으로 평가 환경을 통일했습니다.
 - **Case별 실험 및 분석:** 다양한 조건에서 반복 실험을 수행하며 모델의 성능 변화와 특성을 비교·분석하고, 연구 방향에 필요한 실험 결과를 축적하고 있습니다.
 - **Graph 기반 분석:** 연구 과정에서 데이터의 구조적 관계를 활용하기 위한 Graph를 구성하고 Shortest Path 분석 코드를 구현했습니다.
+  <img src="https://github.com/user-attachments/assets/85944ba8-7d97-4b25-8f26-f0074322d8fc" width="70%"/>
 
 **🎞 연구 관련 코드**
 *연구의 주요 architecture는 현재 개발 및 연구가 진행 중이므로, 공개 가능한 범위에서 데이터 처리 및 Graph 분석 코드를 정리했습니다.*
